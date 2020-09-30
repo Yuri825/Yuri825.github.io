@@ -1,25 +1,25 @@
 body {
 			background-color: #354D7C;
+			min-width: 1180px;
 		}
 		#wrapper {
-			margin-left: 19vw;
-			margin-right: 19vw;
-			margin-top: 3vh;
+			width: 1180px;
+			margin: 20px auto;
 		}
 		#emblem {
-			height: 12vh;
+			height: 120px;
 
 		}
 
 		header {
 			display: flex;
 			flex-direction: row;
-			
-			height: 20vh;
+			/*border: 1px solid black;*/
+			height: 190px;
 		}
 		header h1 {
 			color: white;
-			font-size: 2.5vh;
+			font-size: 24px;
 		}
 		#menuheader {
 			/*border: 1px solid black;*/
@@ -60,9 +60,9 @@ body {
 			align-items: flex-end;
 		}
 		#downheader li {
-			padding-left: 2vw;
+			/*padding-left: 2vw;*/
 		}
-		#downheader label {
+		#downheader p {
 			color: white;
 		}
 		.centerheader {
@@ -74,13 +74,13 @@ body {
 		
 
 		#mainmenu ul {
-			width: 15vw;
+			width: 285px;
 			/*border: 1px solid yellow;*/
 			padding: 0;
 		}
 		#mainmenu li {
 			list-style-type: none;
-			margin-bottom: 1vh;
+			margin-bottom: 8px;
 		}
 		#mainmenu a {
 			color: white;
@@ -98,13 +98,14 @@ body {
 			background-position: center;
 			background-size: cover;
 			margin-left: 10px;
+			margin-top: 5px;
 		}
 
 		#hope {
-			height: 12vh;
+			height: 120px;
 		}
 		#under_main {
-			width: 8vw;
+			width: 165px;
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -116,7 +117,6 @@ body {
 
 		footer {
 			background-color: #333333;
-			
 			display: flex;
 			justify-content: space-around;
 		}
@@ -127,15 +127,15 @@ body {
 		}
 		footer li {
 			color: #969696;
-			padding-left: 5vw;
-			padding-right: 5vw;
+			padding-left: 70px;
+			padding-right: 70px;
 		}
 		footer img {
-			height: 3vh;
+			height: 30px;
 			filter: invert(45%);		
 		}
 
 		footer img:hover {
-			height: 3vh;
+			/*height: 3vh;*/ 
 			filter: invert(0%);		
 		}
