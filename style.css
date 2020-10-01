@@ -16,7 +16,7 @@ body {
 			display: flex;
 			flex-direction: row;
 			/*border: 1px solid black;*/
-			height: 190px;
+			height: 170px;
 		}
 		header h1 {
 			color: white;
@@ -92,7 +92,7 @@ body {
 		}
 		main {
 			display: flex;
-			height: 50vh;
+			height: 70vh;
 		}
 		#right_side_main {
 			width: 100%;
