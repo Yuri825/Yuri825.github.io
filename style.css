@@ -74,26 +74,35 @@ body {
 		}
 		
 
-		#mainmenu ul {
+		#mainmenu ul, #mainmenuIndex ul {
 			width: 285px;
 			/*border: 1px solid yellow;*/
 			padding: 0;
 		}
-		#mainmenu li {
+		#mainmenu li  {
 			list-style-type: none;
 			margin-bottom: 8px;
 		}
-		#mainmenu a {
+
+		#mainmenuIndex li {
+			list-style-type: none;
+			margin-top: 20px;
+		}
+
+		#mainmenu a, #mainmenuIndex a {
 			color: white;
 			text-decoration: none;
 		}
-		#mainmenu a:hover {
+		#mainmenu a:hover, #mainmenuIndex a:hover{
 			color: #96DBE3;
 		}
 		main {
 			display: flex;
 			height: 70vh;
 		}
+
+		
+
 		#right_side_main {
 			width: 100%;
 			background-image: url(images/image_main.jpg);
